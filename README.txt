@@ -1,30 +1,24 @@
-PyOps - Python System Management Tool
-====================================
+# PyOps - Python System Management Tool
 
-Overview:
----------
-PyOps is a Python-based system management tool designed to help with process monitoring, automation, file system monitoring, and network management. It provides various utilities for managing system resources, performing remote automation tasks, and running background jobs.
+## Overview
+PyOps is a powerful Python tool for system management, designed to simplify tasks such as process monitoring, automation, file system tracking, and network management. It includes utilities for managing system resources, automating remote tasks, and running background jobs.
 
-Features:
----------
+## Features
 - Monitor system processes and resources with `psutil`.
-- Cross-platform file system monitoring using `watchdog`.
-- Remote SSH automation with `paramiko`.
-- Task queue and background job processing using `celery`.
-- Logging and terminal output formatting with `loguru` and `rich`.
-- Package and dependency management with `virtualenv` and `pipenv`.
+- Cross-platform file system monitoring via `watchdog`.
+- Automate tasks remotely using `paramiko` (SSH).
+- Manage task queues and background jobs with `celery`.
+- Advanced logging and terminal formatting with `loguru` and `rich`.
+- Handle package dependencies using `virtualenv` and `pipenv`.
 
-Requirements:
--------------
-- Python 3.7 or higher
-- Ensure that the required dependencies are installed by using the `requirements.txt` file.
+## Requirements
+- Python 3.7+  
+- Required dependencies are listed in `requirements.txt`.
 
-Installation:
--------------
-1. Clone the repository or download the project files.
-2. Navigate to the project directory in your terminal.
-3. (Optional) Create and activate a virtual environment:
+## Installation
+1. Clone the repository:
    ```bash
-   python -m venv venv
-   venv\Scripts\activate  # For Windows
-   source venv/bin/activate  # For macOS/Linux
+   git clone https://github.com/your-repo/pyops.git
+   cd pyops
+   pip install -r requirements.txt
+   python PyOps.py
