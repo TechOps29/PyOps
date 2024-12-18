@@ -36,12 +36,9 @@ To get started with PyOps, follow these steps:
   ```bash
     git clone https://github.com/PyOps/pyops.git
     cd pyops
-    ```
 
 2. Install the required dependencies:
 
-    ```bash
     pip install -r requirements.txt
-    ```
 
 3. You're ready to start using PyOps!
