@@ -17,8 +17,8 @@ PyOps is a powerful Python tool for system management, designed to simplify task
 
 ## Installation
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo/pyops.git
-   cd pyops
-   pip install -r requirements.txt
-   python PyOps.py
+```bash
+git clone https://github.com/your-repo/pyops.git
+cd pyops
+pip install -r requirements.txt
+python PyOps.py
